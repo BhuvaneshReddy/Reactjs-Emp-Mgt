@@ -99,8 +99,8 @@
     "redux-immutable-state-invariant": "1.2.3"
   },
   "scripts": {
-    "start": "SET NODE_ENV=development & node server.js",
-    "build": "SET NODE_ENV=production & webpack --config webpack.prod.config.js --progress --colors -p",
+    "start": "SET NODE_ENV=development&& node server.js",
+    "build": "SET NODE_ENV=production&& webpack --config webpack.prod.config.js --progress --colors -p",
     "test": "jest"
   },
   "author": "Max Stoiber",
